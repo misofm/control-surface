@@ -1,6 +1,7 @@
 # `@misofm/control-surface`
 
 [![CI](https://github.com/misofm/control-surface/actions/workflows/ci.yml/badge.svg)](https://github.com/misofm/control-surface/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/@misofm/control-surface.svg)](https://www.npmjs.com/package/@misofm/control-surface)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
 Typed, framework-independent control-surface drivers for browser-based audio
@@ -57,11 +58,10 @@ browser can present its permission UI.
 
 ## Installation
 
-Until the first npm registry release, install directly from the public
-repository:
+Install the package from npm:
 
 ```sh
-bun add github:misofm/control-surface
+bun add @misofm/control-surface
 ```
 
 The package is ESM-only and ships compiled JavaScript plus declarations.

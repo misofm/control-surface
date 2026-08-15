@@ -1,6 +1,6 @@
 {
   "name": "@misofm/control-surface",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Typed control-surface drivers and Web MIDI transport for browser-based audio applications.",
   "license": "Apache-2.0",
   "repository": {
@@ -40,7 +40,8 @@
     "build": "tsc -p tsconfig.build.json",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json",
-    "prepare": "bun run build"
+    "prepack": "bun run build",
+    "prepublishOnly": "bun run typecheck && bun run test"
   },
   "exports": {
     ".": {
