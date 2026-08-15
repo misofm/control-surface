@@ -1,6 +1,6 @@
 {
   "name": "@misofm/control-surface",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Typed control-surface drivers and Web MIDI transport for browser-based audio applications.",
   "license": "Apache-2.0",
   "repository": {

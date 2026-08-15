@@ -6,6 +6,13 @@ All notable changes to this project will be documented here. The format follows
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-08-16
+
+### Fixed
+
+- Include compiled output in the repository so direct GitHub dependencies work
+  when package lifecycle scripts are disabled.
+
 ## [0.1.0] - 2026-08-16
 
 ### Added
@@ -18,5 +25,6 @@ All notable changes to this project will be documented here. The format follows
   state.
 - Unit coverage for the wire codec and Web MIDI lifecycle.
 
-[Unreleased]: https://github.com/misofm/control-surface/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/misofm/control-surface/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/misofm/control-surface/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/misofm/control-surface/releases/tag/v0.1.0
